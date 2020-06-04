@@ -1,0 +1,377 @@
+# Copyright (C) 2017 WooCommerce Price Per Unit
+# This file is distributed under the same license as the WooCommerce Price Per Unit package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Price Per Unit 2.0.5\n"
+"POT-Creation-Date: 2020-05-15 13:31+0200\n"
+"PO-Revision-Date: 2017-04-06 16:00-0500\n"
+"Last-Translator: Martin Mechura\n"
+"Language-Team: MechComp\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_x:1,2c;_e;_ex:1,2c;_n:1,2;_nx:1,2,4c;esc_html__;esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: !Snippets\n"
+"X-Poedit-SearchPathExcluded-1: .vscode\n"
+"X-Poedit-SearchPathExcluded-2: .history\n"
+"X-Poedit-SearchPathExcluded-3: .git\n"
+"X-Poedit-SearchPathExcluded-4: -interesting\n"
+
+#: includes/general-settings.php:23
+msgid "No additional text"
+msgstr ""
+
+#: includes/general-settings.php:24
+msgid "Automatic text - takes unit settings from product"
+msgstr ""
+
+#: includes/general-settings.php:35
+msgid "Important notice about new version"
+msgstr ""
+
+#: includes/general-settings.php:36 woo-price-per-unit.php:118
+msgid "It is no loger possible to change behaviour on single product - please check your product settings to get more info."
+msgstr ""
+
+#: includes/general-settings.php:41
+msgid "General price options"
+msgstr ""
+
+#: includes/general-settings.php:42
+msgid "Settings which affects all products"
+msgstr ""
+
+#: includes/general-settings.php:47
+msgid "General price additional text"
+msgstr ""
+
+#: includes/general-settings.php:48
+msgid "This text will be shown after every price text. You can modify it's appearance through CSS class mcmp-general-price-suffix."
+msgstr ""
+
+#: includes/general-settings.php:49
+msgid "Example \"Without Vat\""
+msgstr ""
+
+#: includes/general-settings.php:55
+msgid "Sale price - hide regular price"
+msgstr ""
+
+#: includes/general-settings.php:56
+msgid "When product is on sale it shows regular price and sale price. This will hide the regular price for all products."
+msgstr ""
+
+#: includes/general-settings.php:64
+msgid "Options for variable products"
+msgstr ""
+
+#: includes/general-settings.php:65
+msgid "These settings affect only variable products"
+msgstr ""
+
+#: includes/general-settings.php:70
+msgid "Variations - prefix for variable price"
+msgstr ""
+
+#: includes/general-settings.php:71
+msgid "If the product is variable this text will be shown before the price. You can modify it's appearance through CSS class mcmp-variable-price-prefix."
+msgstr ""
+
+#: includes/general-settings.php:72
+msgid "Example \"From:\""
+msgstr ""
+
+#: includes/general-settings.php:79
+msgid "Variations - Display only lower price"
+msgstr ""
+
+#: includes/general-settings.php:80
+msgid "When displaying variation the price is displayed as \"$10-$25\". With this setting you will get just \"$10\""
+msgstr ""
+
+#: includes/general-settings.php:87
+msgid "Variations - Show regular price"
+msgstr ""
+
+#: includes/general-settings.php:88
+msgid "Mimics pre WooCommerce 3 variable product price display - Shows how much was the cost before sale"
+msgstr ""
+
+#: includes/general-settings.php:96
+msgid "Price recalculation"
+msgstr ""
+
+#: includes/general-settings.php:97
+msgid "General settings for price recalculation"
+msgstr ""
+
+#: includes/general-settings.php:102
+msgid "New row different styling"
+msgstr ""
+
+#: includes/general-settings.php:103
+msgid "When displaying price as new row, the new row will be displayed in italics with slightly smaller font size. For more styling you can use CSS class mcmp_recalc_price_row."
+msgstr ""
+
+#: includes/general-settings.php:110
+msgid "Shop page price behavior"
+msgstr ""
+
+#: includes/general-settings.php:111
+msgid "Behaviour of recalculated price on shop page"
+msgstr ""
+
+#: includes/general-settings.php:117 includes/general-settings.php:132
+#: includes/general-settings.php:147
+msgid "Do not show recalculated price"
+msgstr ""
+
+#: includes/general-settings.php:118 includes/general-settings.php:133
+msgid "Show recalculated price as new row"
+msgstr ""
+
+#: includes/general-settings.php:119 includes/general-settings.php:134
+msgid "Replace price view with recalculated"
+msgstr ""
+
+#: includes/general-settings.php:125
+msgid "Single product page behavior"
+msgstr ""
+
+#: includes/general-settings.php:126
+msgid "Behaviour of recalculated price on single product page"
+msgstr ""
+
+#: includes/general-settings.php:140
+msgid "Cart page behavior"
+msgstr ""
+
+#: includes/general-settings.php:141
+msgid "Behaviour of recalculated price on cart page. Always displayed as new row."
+msgstr ""
+
+#: includes/general-settings.php:148
+msgid "Show recalculated price always"
+msgstr ""
+
+#: includes/general-settings.php:149
+msgid "Show if displayed on Single product page"
+msgstr ""
+
+#: includes/general-settings.php:150
+msgid "Show if displayed on Shop page"
+msgstr ""
+
+#: includes/general-settings.php:157
+msgid "Recalculated price additional text"
+msgstr ""
+
+#: includes/general-settings.php:158
+msgid "Will be shown immediatelly after recalculated prices. Can be overriden in product editor. Will be shown ONLY when recalculation takes place. You can modify it's appearance through CSS class mcmp-recalc-price-suffix."
+msgstr ""
+
+#: includes/general-settings.php:168
+msgid "Prepostion for weight unit when using automatic text"
+msgstr ""
+
+#: includes/general-settings.php:169
+msgid "Automatic text will create text like this '$10/kg' with this option you can replace '/' sign with what you want."
+msgstr ""
+
+#: includes/general-settings.php:169 includes/general-settings.php:171
+msgid "To add space replace it with \"%\" sign."
+msgstr ""
+
+#: includes/general-settings.php:171
+msgid "Example \"/\" or \"per%\"."
+msgstr ""
+
+#: includes/general-settings.php:176
+msgid "Predefined additional text values"
+msgstr ""
+
+#: includes/general-settings.php:177
+msgid "Set of additional texts from which you will be able to choose on product page. Multiple values can be separated with '|' sign."
+msgstr ""
+
+#: includes/general-settings.php:183
+msgid "Separate text from price with space"
+msgstr ""
+
+#: includes/general-settings.php:184
+msgid "The additional text is normally separated from the recalculated price with unbreakable space. If you don't want it uncheck this option."
+msgstr ""
+
+#: includes/general-settings.php:191
+msgid "Recalculated price prefix text"
+msgstr ""
+
+#: includes/general-settings.php:192
+msgid "Will be shown before the recalculated prices. Can be overriden in product editor. Will be shown ONLY when recalculation takes place. You can modify it's appearance through CSS class mcmp-recalc-price-prefix."
+msgstr ""
+
+#: includes/general-settings.php:194
+msgid "Example \"Price per kilogram:\""
+msgstr ""
+
+#: includes/general-settings.php:199
+msgid "Disable price rounding"
+msgstr ""
+
+#: includes/general-settings.php:200
+msgid "Normally WooCommerce rounds displayed prices - if you want recalculated prices trimmed instead check this field."
+msgstr ""
+
+#: includes/general-settings.php:208
+msgid "Maintenance"
+msgstr ""
+
+#: includes/general-settings.php:209
+msgid "These settings are related just to the plugin itself."
+msgstr ""
+
+#: includes/general-settings.php:214
+msgid "Delete settings on uninstall"
+msgstr ""
+
+#: includes/general-settings.php:215
+msgid "With this setting you will delete all plugin settings on uninstallation."
+msgstr ""
+
+#: includes/product-settings.php:15
+msgid "Settings for Price per unit plug-in"
+msgstr ""
+
+#: includes/product-settings.php:17
+msgid "In PRO version you will find here settings for individual products"
+msgstr ""
+
+#: includes/product-settings.php:18
+msgid "You can buy the plug-in here "
+msgstr ""
+
+#: includes/product-settings.php:20
+msgid "Price per Unit PRO"
+msgstr ""
+
+#: includes/product-settings.php:23
+msgid "Features you will find here:"
+msgstr ""
+
+#: includes/product-settings.php:24
+msgid "- Change of display for product page"
+msgstr ""
+
+#: includes/product-settings.php:25
+msgid "- Change of display for shop page"
+msgstr ""
+
+#: includes/product-settings.php:26
+msgid "- Individual text for recalculated price"
+msgstr ""
+
+#: includes/product-settings.php:27
+msgid "- Option to display price for different weight unit (kg,g,lbs,oz) from shop default. Example: shop in kg and some products in grams"
+msgstr ""
+
+#: includes/product-settings.php:28
+msgid "- Option for entering weight, different from shipping weight. Example: use shipping weight as gross and recalculate per net weight."
+msgstr ""
+
+#: includes/product-settings.php:29
+msgid "- Option for displaying recalculation for different number of units. Example: You can display price per 5kg"
+msgstr ""
+
+#: includes/product-settings.php:33
+msgid "New plug-in available - Sell by Weight PRO"
+msgstr ""
+
+#: includes/product-settings.php:35
+msgid "This plug-in allows you to sell easily products, where you want to have several weight option to sell at the same price for kilogram."
+msgstr ""
+
+#: includes/product-settings.php:36
+msgid "It works in a similar way as Variable products, but it is easier to manage because you will enter the price only once and the options price is calculated automatically."
+msgstr ""
+
+#: includes/product-settings.php:37
+msgid "More information can be found here "
+msgstr ""
+
+#: includes/product-settings.php:39
+msgid "Sell by Weight PRO"
+msgstr ""
+
+#: includes/product-settings.php:42
+msgid "Note for old version users:"
+msgstr ""
+
+#: includes/product-settings.php:43
+msgid "All your settings from this page are still in database, if you upgrade to PRO version it will be available again."
+msgstr ""
+
+#: includes/product-settings.php:44
+msgid "If you are not interested in buying PRO version and still want to use the old features, please downgrade to free version 1.9.3."
+msgstr ""
+
+#: includes/product-settings.php:46
+msgid "Download here."
+msgstr ""
+
+#: woo-price-per-unit.php:116 woo-price-per-unit.php:363
+msgid "Price Per Unit"
+msgstr ""
+
+#: woo-price-per-unit.php:117
+msgid " - there was a change in the process of displaying."
+msgstr ""
+
+#: woo-price-per-unit.php:243
+msgid "Price per unit plugin - PRO version is active. Please deactivate it first."
+msgstr ""
+
+#: woo-price-per-unit.php:281
+msgid "Plugin NOT activated: "
+msgstr ""
+
+#: woo-price-per-unit.php:350
+msgid "Settings"
+msgstr ""
+
+#: woo-price-per-unit.php:387
+msgid "Price Per Unit - free version"
+msgstr ""
+
+#: woo-price-per-unit.php:546
+msgctxt "weight unit"
+msgid "kg"
+msgid_plural "kg"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woo-price-per-unit.php:549
+msgctxt "weight unit"
+msgid "g"
+msgid_plural "g"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woo-price-per-unit.php:552
+msgctxt "weight unit"
+msgid "oz"
+msgid_plural "oz"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woo-price-per-unit.php:555
+msgctxt "weight unit"
+msgid "lb"
+msgid_plural "lbs"
+msgstr[0] ""
+msgstr[1] ""
